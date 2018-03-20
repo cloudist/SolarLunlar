@@ -1,5 +1,5 @@
 # SolarLunar
-A tiny tool for Solar <-> Lunar
+A toolkit for Solar <-> Lunar
 
 ## Installation  
 
