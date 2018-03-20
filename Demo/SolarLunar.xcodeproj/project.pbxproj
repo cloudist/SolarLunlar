@@ -17,6 +17,14 @@
 		3A396249205F9F9F000AFA72 /* Solar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A396248205F9F9F000AFA72 /* Solar.swift */; };
 		3A39624B205F9FA5000AFA72 /* Lunar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A39624A205F9FA5000AFA72 /* Lunar.swift */; };
 		3A39624D205F9FCC000AFA72 /* Converter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A39624C205F9FCC000AFA72 /* Converter.swift */; };
+		3AFBB62A2060EBA70039EDC5 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AFBB6282060EBA70039EDC5 /* Interface.storyboard */; };
+		3AFBB62C2060EBA70039EDC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AFBB62B2060EBA70039EDC5 /* Assets.xcassets */; };
+		3AFBB6332060EBA80039EDC5 /* WatchOS Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 3AFBB6322060EBA80039EDC5 /* WatchOS Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3AFBB6382060EBA80039EDC5 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFBB6372060EBA80039EDC5 /* InterfaceController.swift */; };
+		3AFBB63A2060EBA80039EDC5 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFBB6392060EBA80039EDC5 /* ExtensionDelegate.swift */; };
+		3AFBB63C2060EBA80039EDC5 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFBB63B2060EBA80039EDC5 /* NotificationController.swift */; };
+		3AFBB63E2060EBA80039EDC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AFBB63D2060EBA80039EDC5 /* Assets.xcassets */; };
+		3AFBB6432060EBA80039EDC5 /* WatchOS.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 3AFBB6262060EBA70039EDC5 /* WatchOS.app */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,7 +42,46 @@
 			remoteGlobalIDString = 3A3961FF205B9BC6000AFA72;
 			remoteInfo = SolarLunar;
 		};
+		3AFBB6342060EBA80039EDC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A3961F8205B9BC5000AFA72 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3AFBB6312060EBA80039EDC5;
+			remoteInfo = "WatchOS Extension";
+		};
+		3AFBB6412060EBA80039EDC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A3961F8205B9BC5000AFA72 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3AFBB6252060EBA70039EDC5;
+			remoteInfo = WatchOS;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3AFBB6492060EBA80039EDC5 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				3AFBB6332060EBA80039EDC5 /* WatchOS Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AFBB64B2060EBA80039EDC5 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				3AFBB6432060EBA80039EDC5 /* WatchOS.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		3A396200205B9BC6000AFA72 /* SolarLunar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SolarLunar.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -53,6 +100,17 @@
 		3A396248205F9F9F000AFA72 /* Solar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solar.swift; sourceTree = "<group>"; };
 		3A39624A205F9FA5000AFA72 /* Lunar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lunar.swift; sourceTree = "<group>"; };
 		3A39624C205F9FCC000AFA72 /* Converter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Converter.swift; sourceTree = "<group>"; };
+		3AFBB6262060EBA70039EDC5 /* WatchOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AFBB6292060EBA70039EDC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		3AFBB62B2060EBA70039EDC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3AFBB62D2060EBA70039EDC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AFBB6322060EBA80039EDC5 /* WatchOS Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "WatchOS Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AFBB6372060EBA80039EDC5 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		3AFBB6392060EBA80039EDC5 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		3AFBB63B2060EBA80039EDC5 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		3AFBB63D2060EBA80039EDC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3AFBB63F2060EBA80039EDC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AFBB6402060EBA80039EDC5 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +135,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3AFBB62F2060EBA80039EDC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -86,6 +151,8 @@
 				3A396202205B9BC6000AFA72 /* SolarLunar */,
 				3A396217205B9BC6000AFA72 /* SolarLunarTests */,
 				3A396222205B9BC6000AFA72 /* SolarLunarUITests */,
+				3AFBB6272060EBA70039EDC5 /* WatchOS */,
+				3AFBB6362060EBA80039EDC5 /* WatchOS Extension */,
 				3A396201205B9BC6000AFA72 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -96,6 +163,8 @@
 				3A396200205B9BC6000AFA72 /* SolarLunar.app */,
 				3A396214205B9BC6000AFA72 /* SolarLunarTests.xctest */,
 				3A39621F205B9BC6000AFA72 /* SolarLunarUITests.xctest */,
+				3AFBB6262060EBA70039EDC5 /* WatchOS.app */,
+				3AFBB6322060EBA80039EDC5 /* WatchOS Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -142,6 +211,29 @@
 			path = SolarLunar;
 			sourceTree = "<group>";
 		};
+		3AFBB6272060EBA70039EDC5 /* WatchOS */ = {
+			isa = PBXGroup;
+			children = (
+				3AFBB6282060EBA70039EDC5 /* Interface.storyboard */,
+				3AFBB62B2060EBA70039EDC5 /* Assets.xcassets */,
+				3AFBB62D2060EBA70039EDC5 /* Info.plist */,
+			);
+			path = WatchOS;
+			sourceTree = "<group>";
+		};
+		3AFBB6362060EBA80039EDC5 /* WatchOS Extension */ = {
+			isa = PBXGroup;
+			children = (
+				3AFBB6372060EBA80039EDC5 /* InterfaceController.swift */,
+				3AFBB6392060EBA80039EDC5 /* ExtensionDelegate.swift */,
+				3AFBB63B2060EBA80039EDC5 /* NotificationController.swift */,
+				3AFBB63D2060EBA80039EDC5 /* Assets.xcassets */,
+				3AFBB63F2060EBA80039EDC5 /* Info.plist */,
+				3AFBB6402060EBA80039EDC5 /* PushNotificationPayload.apns */,
+			);
+			path = "WatchOS Extension";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -152,10 +244,12 @@
 				3A3961FC205B9BC6000AFA72 /* Sources */,
 				3A3961FD205B9BC6000AFA72 /* Frameworks */,
 				3A3961FE205B9BC6000AFA72 /* Resources */,
+				3AFBB64B2060EBA80039EDC5 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				3AFBB6422060EBA80039EDC5 /* PBXTargetDependency */,
 			);
 			name = SolarLunar;
 			productName = SolarLunar;
@@ -198,6 +292,40 @@
 			productReference = 3A39621F205B9BC6000AFA72 /* SolarLunarUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		3AFBB6252060EBA70039EDC5 /* WatchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AFBB64A2060EBA80039EDC5 /* Build configuration list for PBXNativeTarget "WatchOS" */;
+			buildPhases = (
+				3AFBB6242060EBA70039EDC5 /* Resources */,
+				3AFBB6492060EBA80039EDC5 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3AFBB6352060EBA80039EDC5 /* PBXTargetDependency */,
+			);
+			name = WatchOS;
+			productName = WatchOS;
+			productReference = 3AFBB6262060EBA70039EDC5 /* WatchOS.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		3AFBB6312060EBA80039EDC5 /* WatchOS Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AFBB6482060EBA80039EDC5 /* Build configuration list for PBXNativeTarget "WatchOS Extension" */;
+			buildPhases = (
+				3AFBB62E2060EBA80039EDC5 /* Sources */,
+				3AFBB62F2060EBA80039EDC5 /* Frameworks */,
+				3AFBB6302060EBA80039EDC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WatchOS Extension";
+			productName = "WatchOS Extension";
+			productReference = 3AFBB6322060EBA80039EDC5 /* WatchOS Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -222,6 +350,14 @@
 						ProvisioningStyle = Automatic;
 						TestTargetID = 3A3961FF205B9BC6000AFA72;
 					};
+					3AFBB6252060EBA70039EDC5 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					3AFBB6312060EBA80039EDC5 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = 3A3961FB205B9BC5000AFA72 /* Build configuration list for PBXProject "SolarLunar" */;
@@ -240,6 +376,8 @@
 				3A3961FF205B9BC6000AFA72 /* SolarLunar */,
 				3A396213205B9BC6000AFA72 /* SolarLunarTests */,
 				3A39621E205B9BC6000AFA72 /* SolarLunarUITests */,
+				3AFBB6252060EBA70039EDC5 /* WatchOS */,
+				3AFBB6312060EBA80039EDC5 /* WatchOS Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -266,6 +404,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AFBB6242060EBA70039EDC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AFBB62C2060EBA70039EDC5 /* Assets.xcassets in Resources */,
+				3AFBB62A2060EBA70039EDC5 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AFBB6302060EBA80039EDC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AFBB63E2060EBA80039EDC5 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +455,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3AFBB62E2060EBA80039EDC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AFBB63C2060EBA80039EDC5 /* NotificationController.swift in Sources */,
+				3AFBB63A2060EBA80039EDC5 /* ExtensionDelegate.swift in Sources */,
+				3AFBB6382060EBA80039EDC5 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -312,6 +477,16 @@
 			isa = PBXTargetDependency;
 			target = 3A3961FF205B9BC6000AFA72 /* SolarLunar */;
 			targetProxy = 3A396220205B9BC6000AFA72 /* PBXContainerItemProxy */;
+		};
+		3AFBB6352060EBA80039EDC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3AFBB6312060EBA80039EDC5 /* WatchOS Extension */;
+			targetProxy = 3AFBB6342060EBA80039EDC5 /* PBXContainerItemProxy */;
+		};
+		3AFBB6422060EBA80039EDC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3AFBB6252060EBA70039EDC5 /* WatchOS */;
+			targetProxy = 3AFBB6412060EBA80039EDC5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -330,6 +505,14 @@
 				3A39620D205B9BC6000AFA72 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		3AFBB6282060EBA70039EDC5 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3AFBB6292060EBA70039EDC5 /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -540,6 +723,80 @@
 			};
 			name = Release;
 		};
+		3AFBB6442060EBA80039EDC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A9KH5WMYTC;
+				IBSC_MODULE = WatchOS_Extension;
+				INFOPLIST_FILE = WatchOS/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = cc.cloudist.SolarLunar.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.2;
+			};
+			name = Debug;
+		};
+		3AFBB6452060EBA80039EDC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A9KH5WMYTC;
+				IBSC_MODULE = WatchOS_Extension;
+				INFOPLIST_FILE = WatchOS/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = cc.cloudist.SolarLunar.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.2;
+			};
+			name = Release;
+		};
+		3AFBB6462060EBA80039EDC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A9KH5WMYTC;
+				INFOPLIST_FILE = "WatchOS Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cc.cloudist.SolarLunar.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.2;
+			};
+			name = Debug;
+		};
+		3AFBB6472060EBA80039EDC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A9KH5WMYTC;
+				INFOPLIST_FILE = "WatchOS Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cc.cloudist.SolarLunar.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.2;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -575,6 +832,24 @@
 			buildConfigurations = (
 				3A39622F205B9BC6000AFA72 /* Debug */,
 				3A396230205B9BC6000AFA72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AFBB6482060EBA80039EDC5 /* Build configuration list for PBXNativeTarget "WatchOS Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AFBB6462060EBA80039EDC5 /* Debug */,
+				3AFBB6472060EBA80039EDC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AFBB64A2060EBA80039EDC5 /* Build configuration list for PBXNativeTarget "WatchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AFBB6442060EBA80039EDC5 /* Debug */,
+				3AFBB6452060EBA80039EDC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
