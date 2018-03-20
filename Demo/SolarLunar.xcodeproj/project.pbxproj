@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A396204205B9BC6000AFA72 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A396203205B9BC6000AFA72 /* AppDelegate.swift */; };
+		3A396206205B9BC6000AFA72 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A396205205B9BC6000AFA72 /* ViewController.swift */; };
+		3A396209205B9BC6000AFA72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A396207205B9BC6000AFA72 /* Main.storyboard */; };
+		3A39620B205B9BC6000AFA72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A39620A205B9BC6000AFA72 /* Assets.xcassets */; };
+		3A39620E205B9BC6000AFA72 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A39620C205B9BC6000AFA72 /* LaunchScreen.storyboard */; };
+		3A396219205B9BC6000AFA72 /* SolarLunarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A396218205B9BC6000AFA72 /* SolarLunarTests.swift */; };
+		3A396224205B9BC6000AFA72 /* SolarLunarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A396223205B9BC6000AFA72 /* SolarLunarUITests.swift */; };
+		3A396249205F9F9F000AFA72 /* Solar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A396248205F9F9F000AFA72 /* Solar.swift */; };
+		3A39624B205F9FA5000AFA72 /* Lunar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A39624A205F9FA5000AFA72 /* Lunar.swift */; };
+		3A39624D205F9FCC000AFA72 /* Converter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A39624C205F9FCC000AFA72 /* Converter.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3A396215205B9BC6000AFA72 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A3961F8205B9BC5000AFA72 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A3961FF205B9BC6000AFA72;
+			remoteInfo = SolarLunar;
+		};
+		3A396220205B9BC6000AFA72 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A3961F8205B9BC5000AFA72 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A3961FF205B9BC6000AFA72;
+			remoteInfo = SolarLunar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3A396200205B9BC6000AFA72 /* SolarLunar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SolarLunar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A396203205B9BC6000AFA72 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3A396205205B9BC6000AFA72 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3A396208205B9BC6000AFA72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3A39620A205B9BC6000AFA72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3A39620D205B9BC6000AFA72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3A39620F205B9BC6000AFA72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A396214205B9BC6000AFA72 /* SolarLunarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SolarLunarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A396218205B9BC6000AFA72 /* SolarLunarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolarLunarTests.swift; sourceTree = "<group>"; };
+		3A39621A205B9BC6000AFA72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A39621F205B9BC6000AFA72 /* SolarLunarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SolarLunarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A396223205B9BC6000AFA72 /* SolarLunarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolarLunarUITests.swift; sourceTree = "<group>"; };
+		3A396225205B9BC6000AFA72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A396248205F9F9F000AFA72 /* Solar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solar.swift; sourceTree = "<group>"; };
+		3A39624A205F9FA5000AFA72 /* Lunar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lunar.swift; sourceTree = "<group>"; };
+		3A39624C205F9FCC000AFA72 /* Converter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Converter.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A3961FD205B9BC6000AFA72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A396211205B9BC6000AFA72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A39621C205B9BC6000AFA72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A3961F7205B9BC5000AFA72 = {
+			isa = PBXGroup;
+			children = (
+				3A396202205B9BC6000AFA72 /* SolarLunar */,
+				3A396217205B9BC6000AFA72 /* SolarLunarTests */,
+				3A396222205B9BC6000AFA72 /* SolarLunarUITests */,
+				3A396201205B9BC6000AFA72 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3A396201205B9BC6000AFA72 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3A396200205B9BC6000AFA72 /* SolarLunar.app */,
+				3A396214205B9BC6000AFA72 /* SolarLunarTests.xctest */,
+				3A39621F205B9BC6000AFA72 /* SolarLunarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3A396202205B9BC6000AFA72 /* SolarLunar */ = {
+			isa = PBXGroup;
+			children = (
+				3A396231205B9BF8000AFA72 /* SolarLunar */,
+				3A396203205B9BC6000AFA72 /* AppDelegate.swift */,
+				3A396205205B9BC6000AFA72 /* ViewController.swift */,
+				3A396207205B9BC6000AFA72 /* Main.storyboard */,
+				3A39620A205B9BC6000AFA72 /* Assets.xcassets */,
+				3A39620C205B9BC6000AFA72 /* LaunchScreen.storyboard */,
+				3A39620F205B9BC6000AFA72 /* Info.plist */,
+			);
+			path = SolarLunar;
+			sourceTree = "<group>";
+		};
+		3A396217205B9BC6000AFA72 /* SolarLunarTests */ = {
+			isa = PBXGroup;
+			children = (
+				3A396218205B9BC6000AFA72 /* SolarLunarTests.swift */,
+				3A39621A205B9BC6000AFA72 /* Info.plist */,
+			);
+			path = SolarLunarTests;
+			sourceTree = "<group>";
+		};
+		3A396222205B9BC6000AFA72 /* SolarLunarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3A396223205B9BC6000AFA72 /* SolarLunarUITests.swift */,
+				3A396225205B9BC6000AFA72 /* Info.plist */,
+			);
+			path = SolarLunarUITests;
+			sourceTree = "<group>";
+		};
+		3A396231205B9BF8000AFA72 /* SolarLunar */ = {
+			isa = PBXGroup;
+			children = (
+				3A396248205F9F9F000AFA72 /* Solar.swift */,
+				3A39624A205F9FA5000AFA72 /* Lunar.swift */,
+				3A39624C205F9FCC000AFA72 /* Converter.swift */,
+			);
+			path = SolarLunar;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3A3961FF205B9BC6000AFA72 /* SolarLunar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A396228205B9BC6000AFA72 /* Build configuration list for PBXNativeTarget "SolarLunar" */;
+			buildPhases = (
+				3A3961FC205B9BC6000AFA72 /* Sources */,
+				3A3961FD205B9BC6000AFA72 /* Frameworks */,
+				3A3961FE205B9BC6000AFA72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SolarLunar;
+			productName = SolarLunar;
+			productReference = 3A396200205B9BC6000AFA72 /* SolarLunar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3A396213205B9BC6000AFA72 /* SolarLunarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A39622B205B9BC6000AFA72 /* Build configuration list for PBXNativeTarget "SolarLunarTests" */;
+			buildPhases = (
+				3A396210205B9BC6000AFA72 /* Sources */,
+				3A396211205B9BC6000AFA72 /* Frameworks */,
+				3A396212205B9BC6000AFA72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A396216205B9BC6000AFA72 /* PBXTargetDependency */,
+			);
+			name = SolarLunarTests;
+			productName = SolarLunarTests;
+			productReference = 3A396214205B9BC6000AFA72 /* SolarLunarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3A39621E205B9BC6000AFA72 /* SolarLunarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A39622E205B9BC6000AFA72 /* Build configuration list for PBXNativeTarget "SolarLunarUITests" */;
+			buildPhases = (
+				3A39621B205B9BC6000AFA72 /* Sources */,
+				3A39621C205B9BC6000AFA72 /* Frameworks */,
+				3A39621D205B9BC6000AFA72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A396221205B9BC6000AFA72 /* PBXTargetDependency */,
+			);
+			name = SolarLunarUITests;
+			productName = SolarLunarUITests;
+			productReference = 3A39621F205B9BC6000AFA72 /* SolarLunarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3A3961F8205B9BC5000AFA72 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = cloudist;
+				TargetAttributes = {
+					3A3961FF205B9BC6000AFA72 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					3A396213205B9BC6000AFA72 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3A3961FF205B9BC6000AFA72;
+					};
+					3A39621E205B9BC6000AFA72 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3A3961FF205B9BC6000AFA72;
+					};
+				};
+			};
+			buildConfigurationList = 3A3961FB205B9BC5000AFA72 /* Build configuration list for PBXProject "SolarLunar" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3A3961F7205B9BC5000AFA72;
+			productRefGroup = 3A396201205B9BC6000AFA72 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3A3961FF205B9BC6000AFA72 /* SolarLunar */,
+				3A396213205B9BC6000AFA72 /* SolarLunarTests */,
+				3A39621E205B9BC6000AFA72 /* SolarLunarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3A3961FE205B9BC6000AFA72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A39620E205B9BC6000AFA72 /* LaunchScreen.storyboard in Resources */,
+				3A39620B205B9BC6000AFA72 /* Assets.xcassets in Resources */,
+				3A396209205B9BC6000AFA72 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A396212205B9BC6000AFA72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A39621D205B9BC6000AFA72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A3961FC205B9BC6000AFA72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A396206205B9BC6000AFA72 /* ViewController.swift in Sources */,
+				3A396204205B9BC6000AFA72 /* AppDelegate.swift in Sources */,
+				3A396249205F9F9F000AFA72 /* Solar.swift in Sources */,
+				3A39624D205F9FCC000AFA72 /* Converter.swift in Sources */,
+				3A39624B205F9FA5000AFA72 /* Lunar.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A396210205B9BC6000AFA72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A396219205B9BC6000AFA72 /* SolarLunarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A39621B205B9BC6000AFA72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A396224205B9BC6000AFA72 /* SolarLunarUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3A396216205B9BC6000AFA72 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A3961FF205B9BC6000AFA72 /* SolarLunar */;
+			targetProxy = 3A396215205B9BC6000AFA72 /* PBXContainerItemProxy */;
+		};
+		3A396221205B9BC6000AFA72 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A3961FF205B9BC6000AFA72 /* SolarLunar */;
+			targetProxy = 3A396220205B9BC6000AFA72 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3A396207205B9BC6000AFA72 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A396208205B9BC6000AFA72 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3A39620C205B9BC6000AFA72 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A39620D205B9BC6000AFA72 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3A396226205B9BC6000AFA72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3A396227205B9BC6000AFA72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3A396229205B9BC6000AFA72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A9KH5WMYTC;
+				INFOPLIST_FILE = SolarLunar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cc.cloudist.SolarLunar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3A39622A205B9BC6000AFA72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A9KH5WMYTC;
+				INFOPLIST_FILE = SolarLunar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cc.cloudist.SolarLunar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3A39622C205B9BC6000AFA72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A9KH5WMYTC;
+				INFOPLIST_FILE = SolarLunarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cc.cloudist.SolarLunarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SolarLunar.app/SolarLunar";
+			};
+			name = Debug;
+		};
+		3A39622D205B9BC6000AFA72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A9KH5WMYTC;
+				INFOPLIST_FILE = SolarLunarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cc.cloudist.SolarLunarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SolarLunar.app/SolarLunar";
+			};
+			name = Release;
+		};
+		3A39622F205B9BC6000AFA72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A9KH5WMYTC;
+				INFOPLIST_FILE = SolarLunarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cc.cloudist.SolarLunarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SolarLunar;
+			};
+			name = Debug;
+		};
+		3A396230205B9BC6000AFA72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A9KH5WMYTC;
+				INFOPLIST_FILE = SolarLunarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cc.cloudist.SolarLunarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SolarLunar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A3961FB205B9BC5000AFA72 /* Build configuration list for PBXProject "SolarLunar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A396226205B9BC6000AFA72 /* Debug */,
+				3A396227205B9BC6000AFA72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A396228205B9BC6000AFA72 /* Build configuration list for PBXNativeTarget "SolarLunar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A396229205B9BC6000AFA72 /* Debug */,
+				3A39622A205B9BC6000AFA72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A39622B205B9BC6000AFA72 /* Build configuration list for PBXNativeTarget "SolarLunarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A39622C205B9BC6000AFA72 /* Debug */,
+				3A39622D205B9BC6000AFA72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A39622E205B9BC6000AFA72 /* Build configuration list for PBXNativeTarget "SolarLunarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A39622F205B9BC6000AFA72 /* Debug */,
+				3A396230205B9BC6000AFA72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3A3961F8205B9BC5000AFA72 /* Project object */;
+}
