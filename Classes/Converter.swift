@@ -178,7 +178,7 @@ struct Converter {
         lunarMonth = i
         lunarDay = offset
         
-        let isLeap = (leapMonthFlag & (lunarMonth == leapMonth))
+        let isLeap = (leapMonthFlag && (lunarMonth == leapMonth))
         let lunar = Lunar(year: lunarYear, month: lunarMonth, day: lunarDay, isLeap: isLeap)
         return lunar
     }
@@ -254,19 +254,3 @@ struct Converter {
         return solar
     }
 }
-
-extension Bool {
-    static func &(lhs: Bool, rhs: Bool) -> Bool {
-        let a = lhs ? 1 : 0
-        let b = rhs ? 1 : 0
-        let c = a & b
-        return c == 1 ? true : false
-    }
-    
-    static func &(lhs: Bool, rhs: Int) -> Int {
-        let a = lhs ? 1 : 0
-        let c = a & rhs
-        return c
-    }
-}
-
